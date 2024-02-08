@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header{
+	background-color: firebrick;
+	height: 30px;
+	padding-top: 5px;
+
+}
+
+.countries{
+	display: flex;
+	
+}
+
+.countries_left{
+	height: 500px;
+	width: 50%;
+	background-color: beige;
+}
+.japan_image{
+	height: 500px;
+	width: 100%;
+	background-color: beige;
+}
+.countries_right{
+	height: 500px;
+	width: 50%;
+	background-color: bisque;
+}
+
+.ksa{
+	height: 50%;
+	background-color: blueviolet;
+}
+
+.madina_image{
+	height: 100%;
+	width: 100%;
+}
+.nepal{
+	height: 50%;
+	background-color: forestgreen;
+
+}
+.nepal_image{
+	height: 100%;
+	width: 100%;
+}
+.footer{
+	background-color: firebrick;
+	height: 30px;
+	padding-top: 5px;
+	text-align: center;
+	color: white;
+}
+
+.hobbies{
+	text-align: center;
+	color: white;
+}
+.hobbyflex{
+	display: flex;
+}
+.lefthobby{
+	width: 33.3%;
+	height: 600px;
+	background-color: bisque;
+}
+.middlehobby{
+	width: 33.3%;
+	height: 600px;
+	background-color: violet;
+}
+.righthobby{
+	width: 33.4%;
+	height: 600px;
+	background-color: lavender;
+}
+
+.middlehobby_top{
+	width: 100%;
+	height: 200px;
+}
+.middlehobby_middle{
+	width: 100%;
+	height: 200px;
+}
+.middlehobby_bottom{
+	width: 100%;
+	height: 200px;
+}

@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.header .title{
+	background: linear-gradient(45deg, #66ffff, #cc99ff);
+         -webkit-background-clip: text;
+         color: transparent;
+         font-size: 36px;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.header .sub-title{
+	background: linear-gradient(45deg, #ff00ff, #66ffff, #cc99ff);
+         -webkit-background-clip: text;
+         color: transparent;
+         font-size: 36px;
+/*	color: #FFFFFF;*/
+	text-align: center;
+}
+
+.zen-part{
+	display: flex;
+}
+.zen{
+	background-color: #66CCFF;
+	width: 70%;
+	height: 500px;
+}
+.zen-title{
+	text-align: center;
+}
+.zen-para{
+	padding: 20px;
+	text-align: justify;
+}
+
+.zen_img{
+	height: 500px;
+	width: 30%;
+	font-size: 0;
+}
+.zen_image1{
+	height: 250px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.zen_bottom{
+	height: 300px;
+	width: 100%;
+	background-color: palegreen;
+}
+.cherry-part{
+	display: flex;
+}
+.cherry{
+	flex: 1;
+	background-color: #EB8181;
+	width: 70%;
+
+	
+}
+.cherry .cherry-title{
+	text-align: center;
+}
+.cherry .cherry-para{
+	padding: 20px;
+	text-align: justify;
+}
+.cherry-image{
+	height: 500px;
+	width: 30%;
+}
+.fb{
+	width: 100px;
+	position: fixed;
+	top: 40%;
+	right: -4.6%;
+	transition: 1s;
+}
+
+.fb:hover{
+	right: -4px;
+	cursor: pointer;
+}
+
+.linkedin{
+	width: 100px;
+	position: fixed;
+	top: 45.5%;
+	right: -4.6%;
+	transition: 1s;
+}
+
+.linkedin:hover{
+	right: -4px;
+	cursor: pointer;
+}
+
+.twitter{
+	width: 100px;
+	position: fixed;
+	top: 51%;
+	right: -4.6%;
+	transition: 1s;
+}
+
+.twitter:hover{
+	right: -4px;
+	cursor: pointer;
+}
+
+.social-icons{
+	list-style-type: none;
+	width: 100%;
+	display: block;
+	text-align: center;
+	padding: 100px 0px 0px;
+}
+
+.social-icons li{
+	display: inline-block;
+}
+
+.social-icons li a{
+	display: block;
+	width: 90px;
+	height: 90px;
+	line-height: 90px;
+	font-size: 40px;
+	text-align: center;
+	background: #F58484;
+	color: white;
+	margin: 0px 10px ;
+	border-radius: 100%;
+	transition: 1s;
+}
+
+.social-icons li a:hover{
+	background: #FABDBD;
+	color: black;
+}
